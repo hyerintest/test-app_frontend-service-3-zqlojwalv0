@@ -1,0 +1,109 @@
+//Colours
+$green: #2ecc71;
+$red: #e74c3c;
+$blue: #3498db;
+$yellow: #f1c40f;
+$purple: #8e44ad;
+$turquoise: #1abc9c;
+
+.sign-out-button {
+  margin-top: 10px;
+  width: 40vmin;
+  height: 30px;
+  background: darkgray;
+  display: flex;
+  font-weight: bold;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.todo-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 500px;
+  min-height: 500px;
+  background: white;
+  text-align: center;
+  margin: 128px auto;
+  border-radius: 5px;
+}
+
+h1 {
+  margin: 32px 0;
+  font-size: 24px;
+}
+
+.completed {
+  text-decoration: line-through;
+  opacity: 0.4;
+}
+
+.todo-form {
+  margin: 10px 0;
+  width: 40vmin;
+}
+.btn {
+  box-sizing: border-box;
+  appearance: none;
+  background-color: transparent;
+  border: 2px solid $blue;
+  cursor: pointer;
+  align-self: center;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1;
+  padding: 0.84em 1.31em;
+  text-decoration: none;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.todo-button {
+  border-color: $blue;
+  color: #fff;
+  box-shadow: 0 0 40px 40px $blue inset, 0 0 0 0 $blue;
+  transition: all 150ms ease-in-out;
+}
+
+.todo-input {
+  padding: 15px 32px 15px 16px;
+  border: 1px solid #dfe1e5;
+  outline: none;
+  width: 400px;
+  background: transparent;
+}
+
+.todo-input.edit {
+  border: 2px solid #149fff;
+}
+
+.todo-container {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  width: 40vmin;
+}
+
+.todo-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 4px auto;
+
+  padding: 16px;
+  border-radius: 20px;
+  width: 80%;
+}
+
+.todo-row input {
+  margin-right: 10px;
+}
